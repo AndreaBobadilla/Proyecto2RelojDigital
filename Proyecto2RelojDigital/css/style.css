@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(255,205,0,1) 30%, rgba(0,48,135,1) 50%, rgba(200,16,38,1) 85%);
+}
+
+.contenedor {
+    margin: 0px 0px 75px 90px; 
+}
+
+.reloj {
+    border: 1.5rem double #de7dea;
+    background-color: #edb8eb;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10vh;
+    font-family: monospace;
+    font-size: 2.8rem;
+    color: white;
+    position: absolute;
+}
+
+.flor {
+    max-width: 270px;
+    max-height: 265px;
+    position: relative;
+    margin: 170px 0px 0px 180px;
+}
+
+.flor img {
+    width: 270px;
+    height: 265px;
+    transform: rotate(30deg);
+}
+
+.condor{
+    max-width: 280px;
+    max-height: 220px;
+}
+
+.condor img{
+    width: 280px;
+    height: 220px;
+}
+
+
+
+
+
